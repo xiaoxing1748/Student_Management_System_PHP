@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <div style="border: 1px solid #98bf21;
+    border-radius: 10px;background-color: rgba(249, 252, 243, 0.884);">
+        <form action="./compoment/classfunction.php" method="post" target="_blank">
+            <table class="table_add">
+                <tr>
+                    <h1 class="top">班级信息</h1>
+                </tr>
+                <tr>
+
+                    <td>
+                        <div>班级id</div><input type="text" name="class_id"></td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <div>班级名</div><input type="text" name="class_name"></td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <div>专业</div><input type="text" name="course_id"></td>
+                </tr>
+                <tr>
+                    <td class="bottom">
+                        <input class="button_mini" type="reset" name="reset" value="重置">
+                        <input class="button_mini" type="submit" name="submit" value="提交" onclick="showclass()">
+                        <a href="#" onclick="showclass() ">
+                            <div class="button_mini" style="color: #fff;">返回</div>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

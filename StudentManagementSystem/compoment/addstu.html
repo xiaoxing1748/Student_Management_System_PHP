@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <div style="border: 1px solid #98bf21;
+    border-radius: 10px;background-color: rgba(249, 252, 243, 0.884);">
+        <form action="./compoment/studentfunction.php" method="post" target="_blank">
+            <table class="table_add">
+                <tr>
+                    <h1 class="top">学生信息</h1>
+                </tr>
+                <tr>
+                    <td>
+                        <div>学生id</div><input type="text" name="student_id">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>学号</div><input type="text" name="student_number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>姓名</div><input type="text" name="student_name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>生日</div><input type="date" name="student_birth">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>性别</div><input type="text" name="student_sex">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>班级</div><input type="text" name="class_id">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="bottom">
+                            <input class="button_mini" type="reset" name="reset" value="重置">
+                            <input class="button_mini" type="submit" name="submit" value="提交" onclick="showpagecutcontrol()">
+                            <a href="#" onclick="showpagecutcontrol()">
+                                <div class="button_mini" style="color: #fff;">返回</div>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

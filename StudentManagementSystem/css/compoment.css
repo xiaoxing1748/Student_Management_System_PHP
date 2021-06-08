@@ -1,0 +1,44 @@
+.mainmenu {
+    padding: 20px 20px 0px 20px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.473);
+    margin: 0% 3% 0% 3%;
+    height: 1;
+}
+
+.middle {
+    width: 60%;
+    /* height: 1; */
+}
+
+.show {
+    /* height: 50%; */
+    margin: 3% 0% 0% 0%;
+    /* background-color: green; */
+}
+
+
+/* .result {
+    height: 47%;
+} */
+
+.control {
+    margin: 2% 0% 0% 1%;
+    padding: 0% 1% 1% 1%;
+}
+
+.add {
+    margin: 1.7% 1% 1% 1%;
+    height: fit-content;
+    /* padding: 0% 1% 1% 1%; */
+    /* height: 50%; */
+    /* width: 200px; */
+    /* background-color: rgba(249, 252, 243, 0.884); */
+    border-radius: 10px;
+}
+
+
+/* .add div {
+    border: 1px solid #98bf21;
+    border-radius: 10px;
+} */
